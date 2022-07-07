@@ -23,24 +23,20 @@ background-color: #000;
 }
 
 div {
-    width: 100px;
-    height: 100px;
     display: inline-block;
-    offset-distance: 30px;
-    min-height: 100px; max-height: 500px; 
 }
 
 #div1{
-    padding-left: 10px;
+    font-size: 100%;
     float: left;
-    color: rgb(255, 255, 255); 
+    color: blue;
+    padding-right: 60px;
 }
 
 #div2{
-    padding-right: 720px;
-    float: right;
-    color:rgb(255, 28, 28)
-    
+    font-size: 100%;
+    float: left;
+    color: red;   
 }
 
 body{
