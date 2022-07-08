@@ -1,4 +1,5 @@
 function pesquisar(){
+
 var input,filtro,menu,menuItens,links;
 input = document.getElementById("pesquisa");
 filtro = input.value.toUpperCase();
@@ -13,4 +14,5 @@ for(var i=0; i < menuItens.length; i++){
         menuItens[i].style.display="none";
       }	
    }
+   
 }
